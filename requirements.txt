@@ -1,0 +1,25 @@
+ # to create new file use "New-Item" setup.py in terminal
+ tqdm
+ numpy
+ utils
+ cython
+ PyYAML
+ pandas
+ cython
+ Pillow
+ Jinja2
+ fastapi
+ uvicorn
+ ipykernel
+ matplotlib
+ opencv-python
+ torch-summary
+ dill==0.3.5.1
+ albumentations
+ python-multipart
+ #pycocotools #Comment when creating Docker Image qoogle-cloud-storage apache-airflow==2.4.3
+ -e . # this to install all setup requirements
+
+# "conda activate deep-learning-signature-identification"- this theactivation of environment
+# conda info --base (to know the file path)
+# conda env list (to list all env)
